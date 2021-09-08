@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+/*
+   Style Sheet for Layout 1
+   Theme: Pennywise the Clown
+   Author: Amber Jeffers
+   Date: May 29, 2021
+   
+   Filename: style1.css
+
+*/
+
+html {
+   background-color: #170202;
+   font-family: Verdana, Geneva, Arial, sans-serif; 	
+   color: #bfc1c2;
+}
+
+/* Body Style */
+body {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   max-width: 1500px;
+   min-width: 640px;
+   background-color: black;
+   border-style: solid;
+   border-color: black;
+   border-width: 5px;
+}
+
+/* Navigation */
+
+nav.navigation ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #170202;
+}
+
+nav.navigation li {
+   float: left;
+}
+
+nav.navigation li a {
+   display: block;
+   color: #bfc1c2;
+   text-align: center;
+   padding: 14px 300px;
+   text-decoration: none;
+}
+
+nav.navigation li a:hover {
+   background-color: black;
+}
+
+/* About Style */
+article#about {
+   display: block;
+   clear: both;
+   float: left;
+   width: 70%;
+   padding: 50px;
+   text-align: justify;
+}
+
+article#about h1 {
+   text-align: center;
+   text-transform: uppercase;
+}
+
+article#about p:last-of-type {
+   text-align: right;
+   font-style: italic;
+   font-size: .80em;
+}
+
+/* Link Colors */
+a:link
+a:active {
+   color: #936c6c;
+}
+
+a:visited {
+   color: #cc041a;
+}
+
+a:hover {
+   color: #8a080d;
+}
+
+/* Photo Styles */
+
+section#banner img {
+   display: block;
+   width: 100%;
+}
+
+section#kingphoto img {
+   padding-top: 20px;
+   padding-right: 10px;
+   float: right;
+   display: block;
+   width: 20%;
+}
+
+div.top-3 img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+section#darktower img {
+   float: left;
+   margin-top: 160px;
+   margin-left: 35px;
+}
+
+/* Books Style */
+
+div.books {
+   width: 100%;
+   clear: right;
+}
+
+div.books::after {
+   clear: both;
+   content: "";
+   display: table;
+}
+
+/* Favorite Books Style */
+
+div.favoriteBooks,
+div.top-3 {
+   float: right;
+   padding: 2%;
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   text-align: justify;
+}
+
+div.favoriteBooks {
+   width: 66.67%;
+}
+
+div.favoriteBooks h1 {
+   text-align: center;
+   clear: both;
+   text-transform: uppercase;
+}
+
+div.favoriteBooks h4 {
+   clear: both;
+   text-align: center;
+}
+
+/* Top 3 Style */
+
+div.top-3 {
+   width: 33.33%;
+   min-height: 650px;
+   outline: solid #cc041a;
+   outline-width: 1px;
+}
+
+div.top-3 p {
+   clear: both;
+   font-size: .90em;
+}
+
+/* Favorite Movies Styles */
+section#movies {
+   clear: both;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+section#movies h1 {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+section#movies img {
+   width: 490px;
+   height: 800px;
+   object-fit: cover;
+}
+
+
+/* Written Works Styles */
+
+div.writtenWorks {
+   border: solid #cc041a;
+   border-width: 1px;
+}
+
+div.works {
+   float: left;
+   width: 25%;
+   padding: 10px;
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   font-size: .80em;
+   text-align: center;
+}
+
+div.writtenWorks::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+section#collection h2, h4 {
+   text-align: center;
+   text-transform: uppercase;
+}
+
+section#collection h2 {
+   padding-top: 30px;
+}
+
+section#collection h4 {
+   padding-bottom: 30px;
+}
+
+/* Footer Styles */
+
+footer {
+   clear: both;
+   display: block;
+   color: #bfc1c2;
+   text-align: center;
+   background-color: black;
+   margin-top: 50px;
+   padding: 14px;
+
+}
