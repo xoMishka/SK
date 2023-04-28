@@ -77,9 +77,9 @@ article#about p:last-of-type {
 }
 
 /* Link Colors */
-a:link
+a:link,
 a:active {
-   color: #936c6c;
+   color: #cc041a;
 }
 
 a:visited {
